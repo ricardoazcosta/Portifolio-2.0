@@ -1,0 +1,53 @@
+
+---
+<div align='center'>
+ <h1>
+🚀 Portifolio
+</h1>
+
+</div>
+<div align="center">
+<img src="./assets/readme.png"> <!-- Substitua com uma imagem real do seu aplicativo ou um banner -->
+
+<br>
+<div align='center'>
+<h3 text aling="center">
+Autor Ricardo Alexandre Costa 👨‍💻	
+</h3> 
+</div>
+<br>
+
+
+
+<div style align="center"><br>
+<img align="center" alt="Ricardo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Ricardo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Ricardo-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+</div>
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=1257E5&labelColor=000000">
+
+## Licença
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+## Autor
+<h2>
+Ricardo Alexandre Costa
+</h2>
+
+## Contato 
+
+
+<a href = "https://www.linkedin.com/in/ricardo-alexandre-costa1985/">
+<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white/" target="_blank"></a>
+<a href = "https://wa.me/18997490885">
+<img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
+<a href = "mailto:contatoricardozanete@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>

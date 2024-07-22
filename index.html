@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./script.js" defer></script>
+    <title>Ricardo Costa</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="sticky">
+        <h2 class="portifolio">Portifo<span>lio</span></h2>
+        <div class="navbar-toggle" id="navbar-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul class="navbar__menu" id="navbar__menu">
+          <li class="lista__links"><a heref="#HOME">Home</a></li>
+          <li class="lista__links"><a href="#SOBRE">Sobre</a></li>
+          <li class="lista__links"><a href="#PROJETOS">Projetos</a></li>
+          <li class="lista__links">
+            <a href="./assets/Curriculo.pdf" target="_blank">Curriculo</a>
+          </li>
+          <li class="lista__links"><a href="#FALE-COMIGO">Fale Comigo</a></li>
+        </ul>
+      </nav>
+      <div class="nome">
+        <h1>Ricardo<span> Costa</span></h1>
+        <hr />
+        <h3>Desenvolvedor <span>FullStack</span></h3>
+        <!--animação icones slides-->
+        <div class="scroller">
+          <div class="icones__img scroller__inner">
+            <img class="tags" src="./assets/./icon/icons-html-96.svg" alt="" />
+            <img class="tags" src="./assets/./icon/icons-css-96.svg" alt="" />
+            <img
+              class="tags"
+              src="./assets/./icon/icons-javascript-96.svg"
+              alt=""
+            />
+            <img
+              class="tags"
+              src="./assets/./icon/icons-nativo-de-reagir-96.svg"
+              alt=""
+            />
+            <img class="tags" src="./assets/./icon/icons-git-96.svg" alt="" />
+            <img
+              class="tags"
+              src="./assets/./icon/icons-github-96.svg"
+              alt=""
+            />
+            <img
+              class="tags"
+              src="./assets/./icon/icons8-logo-figma.svg"
+              alt=""
+            /><img
+              class="tags"
+              src="./assets/./icon/icons8-bootstrap.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="SOBRE" class="sobre-mim">
+      <img class="img-foto" src="./assets/img2.png" alt="imagem-ricardo" />
+      <div class="sobre__mim__conteudo">
+        <h2>Sobre Mim</h2>
+        <p>
+          Olá <span>Mundo</span> !!!<br />
+          Me chamo <span>Ricardo Costa</span>, sou um
+          <span>Desenvolvedor Web</span>, com habilidades e experiencias nas
+          tecnologias <span>| </span>HTML <span>|</span> CSS
+          <span>|</span> JAVASCRIPT <span>|</span> REACT <span>|</span> GIT
+          <span>|</span> GITHUB <span>|</span> NODEJS <span>|</span> PRISMA
+          <span>|</span> BOOTSTRAP
+        </p>
+        <p>
+          Com mais de <span>12</span> anos de experiencia em suporte na area de
+          manutenção e instalação de Hardwares e Softwares. Apaixonado pela area
+          da Tecnologia, busco sempre novos conhecimentos que agreguem valores
+          compartilhando e adquirindo conhecimento.
+        </p>
+        <p>
+          Como desenvolvedor web, minhas habilidades me permite criar soluções
+          inovadoras e responsivas, garantido o alinhamento com a necessidade do
+          cliente utilizando das últimas tendências e ferramentas do setor.
+        </p>
+
+        <p>
+          Experiência em desenvolvimento web, trabalhando e contribuindo no
+          desenvolvimento de projetos e aplicações de diferentes áreas, como
+          e-commerce, educação, saúde e entretenimento, usando de qualidade e
+          boas praticas para o melhor desempenho do site ou aplicação.
+        </p>
+        <p>
+          Prezo trabalhar em equipe, cooperando com todos ajudando da melhor
+          maneira possível a solucionar problemas e superar os desafios.
+        </p>
+        <div class="marca__pessoal">
+          <h2>
+            Ajudo pequenos e grandes negocios a terem sua marca na internet.
+          </h2>
+        </div>
+        <div class="container-botao">
+          <div class="botao-contato">
+            <h4>Vamos conversar !</h4>
+
+            <a href="https://wa.me/+5518997490885" target="_blank">
+              <button><span>[ </span>Entre em Contato <span>]</span></button>
+            </a>
+          </div>
+          <div class="botao-contato">
+            <h4>Meu Curriculo On-Line!</h4>
+
+            <a href="curriculum.html" target="_blank">
+              <button><span>[ </span>CV <span>]</span></button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projetos" id="PROJETOS">
+      <h2 class="wrapper-projetos">Projetos</h2>
+      <div class="cards-container">
+        <div class="card">
+          <a
+            href="https://jogo-do-numero-secreto-zero.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img__projeto"
+              src="./assets/numberSecret.png"
+              alt=""
+              srcset=""
+            />
+          </a>
+          <p class="descricao__app">
+            Um jogo interativo desenvolvido em HTML, CSS e JavaScript, onde o
+            jogador deve adivinhar um número aleatório dentro de um intervalo
+            específico. Ele tambem interage com uma API de sistema de voz.
+            Metodos como parseInt Math.random() para gerar números aleatorios,
+            Arrays, setAttribute para funcionalidades.
+          </p>
+          <div class="githube">
+            <a
+              href="https://github.com/ricardoazcosta/Jogo-do-Numero-Secreto"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            </a>
+            <i class="bi bi-github"></i>
+          </div>
+        </div>
+
+        <div class="card">
+          <a
+            href="https://ricardoazcosta.github.io/ForEach-Map-Reduce-Filter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img__projeto"
+              src="./assets/preview.png"
+              alt=""
+              srcset=""
+            />
+          </a>
+
+          <p class="descricao__app">
+            Projeto de Listagem de Produtos, que utiliza JavaScript para
+            manipular uma lista de produtos. Possui as seguintes
+            funcionalidades: ForEach -> Exibir a lista completa de produtos, Map
+            -> Aplicar um desconto de 10% em todos os produtos, Reduce ->
+            Calcular o valor total de todos os itens da lista e Filter ->
+            Filtrar somente os produtos veganos
+          </p>
+          <div class="githube">
+            <a
+              href="https://github.com/ricardoazcosta/ForEach-Map-Reduce-Filter"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <a
+            href="https://oquizjavascript.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img__projeto"
+              src="./assets/iconApp/quiz_5705146.png"
+              alt=""
+              srcset=""
+            />
+          </a>
+
+          <p class="descricao__app">
+            Este é um projeto simples de quiz em JavaScript que testa o
+            conhecimento sobre conceitos básicos da linguagem. O quiz consiste
+            em uma série de perguntas com múltiplas escolha, onde o usuário pode
+            selecionar uma opção para cada pergunta e verificar se sua resposta
+            está correta.
+          </p>
+          <div class="githube">
+            <a
+              href="https://github.com/ricardoazcosta/Quiz"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <a
+            href="https://hamburgueriabestburger-ricardoazcostas-projects.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img__projeto"
+              src="./assets/bestBurg.png"
+              alt=""
+              srcset=""
+            />
+          </a>
+
+          <p class="descricao__app">
+            Best Burguer é um App de Hambugueria Delivery que utiliza
+            tecnologias de ponta como: HTML, CSS, TAILWIND, JAVASCRIPT. O
+            projeto possui as seguintes funcionalidades: Adicionar produtos ao
+            carrinho Remover produtos do carrinho Alterar quantidade de produtos
+            no carrinho Calcular o valor total do carrinho Mostrar o valor total
+            do carrinho Campo de endereço para entrega
+          </p>
+          <div class="githube">
+            <a
+              href="https://github.com/ricardoazcosta/hamburgueria"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <a
+            href="https://loginappcadastro.vercel.app/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img__projeto"
+              src="./assets/loginApp.png"
+              alt=""
+              srcset=""
+            />
+          </a>
+
+          <p class="descricao__app">
+            Este é um projeto de aplicativo de login simples que demonstra a
+            criação de um formulário de login em HTML e estilização usando CSS.
+            Um app simples, que contém um modo tanto para desktops como para
+            smartphones
+          </p>
+          <div class="githube">
+            <a
+              href="https://github.com/ricardoazcosta/Login-App"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <a
+            href="https://tasks-to-do-react.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img__projeto"
+              src="./assets/todoReact.png"
+              alt=""
+              srcset=""
+            />
+          </a>
+
+          <p class="descricao__app">
+            O Task Manager App em React é uma solução simples e eficaz para
+            gerenciamento de tarefas pessoais ou profissionais. A aplicação
+            oferece uma interface amigável e responsiva, ideal para usuários que
+            desejam manter suas atividades organizadas..Com validações e
+            funcionalidades: Adicionar/Visualizar/Concluir/Excluir tarefas.
+            Persistência de Dados onde as tarefas são salvas no armazenamento
+            local do navegador para que você não perca suas informações.
+          </p>
+          <div class="githube">
+            <a
+              href="https://github.com/ricardoazcosta/tasks-to-do-react/tree/main"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <h5>Ricardo A Costa</h5>
+      <p>Para mais Informações</p>
+      <div class="social" id="FALE-COMIGO">
+        <a
+          href="https://www.linkedin.com/in/ricardo-alexandre-costa1985/"
+          target="_blank"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://github.com/ricardoazcosta" target="_blank">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://wa.me/+5518997490885" target="_blank">
+          <i class="bi bi-telephone-fill"></i>
+        </a>
+      </div>
+    </footer>
+    <button onclick="scrollToTop()" class="btn-topo">
+      <img src="./assets/lancamento-do-foguete.png" alt="" width="40px" />
+    </button>
+  </body>
+</html>
